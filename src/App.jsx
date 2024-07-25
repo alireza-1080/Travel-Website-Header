@@ -34,7 +34,7 @@ const [navigationItemsData] = useState([
           <h2>EXPLORE THE WORLD</h2>
           <button>Explore</button>
           <div className="destination-search-container">
-            <input type="text"  placeholder="Look for the destination"/>
+            <input type="text"  placeholder="Look for your destination ..."/>
             <button>Submit</button>
           </div>
         </div>

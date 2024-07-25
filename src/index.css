@@ -1,0 +1,23 @@
+@font-face {
+  font-family: "poppins";
+  src: url(./fonts/Poppins-Regular.ttf);
+}
+
+@font-face {
+  font-family: "dancing script";
+  src: url(./fonts/DancingScript-Regular.ttf);
+}
+
+*,
+*::before,
+*::after {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "poppins";
+}

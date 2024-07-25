@@ -1,0 +1,135 @@
+.body {
+  width: 100vw;
+  height: 100vh;
+  max-width: 1500px;
+  z-index: 0;
+
+  position: relative;
+}
+
+.video-bg-container {
+  width: inherit;
+  height: inherit;
+  overflow: hidden;
+  z-index: 1;
+
+  position: absolute;
+}
+
+.video-bg-container video {
+  width: inherit;
+}
+
+.bg-filter {
+  width: inherit;
+  height: inherit;
+  z-index: 2;
+  top: 0;
+  left: 0;
+
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.header-content-section {
+  width: inherit;
+  height: inherit;
+  z-index: 3;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 150px 1fr;
+  justify-items: center;
+}
+
+.navigation-and-logo-section {
+  display: grid;
+  grid-template-columns: 1fr 3.5fr;
+  grid-template-rows: 1fr;
+  justify-items: center;
+  align-items: center;
+  text-wrap: nowrap;
+
+  width: 80%;
+  height: fit-content;
+  margin-top: 3rem;
+}
+
+.logo-section h2 {
+  font-family: "dancing script";
+  color: #fff;
+  font-size: 3.5rem;
+}
+
+.navigation-section {
+  justify-self: flex-end;
+
+  display: grid;
+  grid-auto-flow: column;
+  gap: 2rem;
+}
+
+.content-section {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
+  align-items: baseline;
+  align-content: center;
+
+  /* margin-top: 8rem; */
+}
+
+.content-section h2 {
+  color: #fff;
+  font-size: 90px;
+  font-weight: 900;
+  width: fit-content !important;
+}
+
+.content-section>button {
+  color: black;
+  background-color: #fff;
+  padding: 1rem 3rem;
+  font-size: 24px;
+  border-radius: 20px;
+  margin-top: 2rem;
+  transition: all 200ms ease-in-out;
+}
+
+.content-section>button:hover {
+  color: #fff;
+  background-color: yellowgreen;
+}
+
+.destination-search-container {
+  margin-top: 8rem;
+}
+
+.destination-search-container input {
+  height: 50px;
+  width: 400px;
+  padding-left: 1.5rem;
+  border-top-left-radius: 12px;
+  border-bottom-left-radius: 12px;
+  font-size: 16px;
+}
+
+.destination-search-container button {
+  height: 50px;
+  width: 100px;
+  border-top-right-radius: 12px;
+  border-bottom-right-radius: 12px;
+  color: #fff;
+  font-weight: 700;
+  font-size: 16px;
+  background-color: #42a5f5;
+  transition: all 200ms ease-in-out;
+}
+
+.destination-search-container button:hover {
+  background-color: yellowgreen;
+}

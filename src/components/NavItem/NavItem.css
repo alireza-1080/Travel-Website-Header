@@ -1,0 +1,13 @@
+.nav-item-container {
+    padding: 15px;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 250ms ease-out;
+}
+
+.nav-item-container:hover {
+    color: black;
+    background-color: #fff;
+}
